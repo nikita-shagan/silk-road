@@ -1,0 +1,11 @@
+.lead__route {
+    position: absolute;
+    top: 38px;
+    right: -48px;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead__route {
+        display: none;
+    }
+}

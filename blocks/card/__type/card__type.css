@@ -1,0 +1,12 @@
+.card__type {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #E9530E;
+    margin: 10px 15px 15px 25px;
+    padding: 0;
+    text-transform: uppercase;
+}

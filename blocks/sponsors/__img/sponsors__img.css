@@ -1,0 +1,13 @@
+.sponsors__img {
+    transition: opacity .2s linear;
+}
+
+.sponsors__img:hover {
+    opacity: .7;
+}
+
+@media screen and (max-width: 850px) {
+    .sponsors__img {
+        height: 24px;
+    }
+}

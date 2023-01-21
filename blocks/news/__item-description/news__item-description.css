@@ -1,0 +1,16 @@
+.news__item-description {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 350px) {
+    .news__item-description{
+        font-size: 14px;
+    }
+}

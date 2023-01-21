@@ -1,0 +1,13 @@
+.header__logo-date {
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+
+@media screen and (max-width: 850px) {
+    .header__logo-date  {
+        top: 0;
+        right: -23px;
+        height: 78px;
+    }
+}

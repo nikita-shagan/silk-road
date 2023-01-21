@@ -1,0 +1,7 @@
+.header__logos-container {
+    display: block;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    width: max-content;
+}

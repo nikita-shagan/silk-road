@@ -1,0 +1,13 @@
+.header__logo:last-of-type {
+    margin-left: 14px;
+}
+
+@media screen and (max-width: 850px) {
+    .header__logo:last-of-type {
+        display: none;
+    }
+
+    .header__logo {
+        width: 120px;
+    }
+}

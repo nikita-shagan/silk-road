@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    max-width: 1180px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 850px) {
+    .header{
+        padding-left: 17px;
+        padding-right: 17px;
+        box-sizing: border-box;
+    }
+}

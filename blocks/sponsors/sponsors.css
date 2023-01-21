@@ -1,0 +1,14 @@
+.sponsors {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 38px;
+}
+
+@media screen and (max-width: 450px) {
+    .sponsors {
+        gap: 16px;
+    }
+}

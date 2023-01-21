@@ -1,0 +1,22 @@
+.lead__more-button {
+    background-color: #E9530E;
+    border-radius: 5px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 259px;
+    height: 55px;
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color .3s linear;
+}
+
+.lead__more-button:hover {
+    background-color: #d24200;
+}
