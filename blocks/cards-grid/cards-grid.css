@@ -18,14 +18,16 @@
 @media screen and (max-width: 1300px) {
     .cards-grid {
         grid-template-columns: repeat(2, minmax(310px, 1fr));
-        grid-template-rows: repeat(4, 320px) 108px;
-        grid-template-rows: 463px 177px 108px 177px 463px;
+        grid-template-rows: 463px 177px 108px 177px 463px auto;
         grid-template-areas:
             "two three"
             "two one"
             "five one"
             "five four"
-            "six four";
+            "six four"
+            "seven eight"
+            "nine .";
+
     }
 }
 
@@ -36,7 +38,7 @@
         padding-right: 10%;
         padding-left: 10%;
         box-sizing: border-box;
-        grid-template-areas: "one" "three" "two" "five" "four" "six" "seven";
+        grid-template-areas: "one" "three" "two" "five" "four" "six" "seven" "eight" "nine";
     }
 }
 
