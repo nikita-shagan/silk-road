@@ -4,7 +4,14 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(310px, 1fr));
     grid-template-rows: 320px 108px 177px 108px 177px;
-    align-items: stretch;
+    grid-auto-flow: row dense;
+    grid-template-areas:
+        "one two three"
+        "four two three"
+        "four two six"
+        "four five six"
+        "four five nine"
+        "seven eight nine";
     gap: 35px;
 }
 
@@ -12,16 +19,24 @@
     .cards-grid {
         grid-template-columns: repeat(2, minmax(310px, 1fr));
         grid-template-rows: repeat(4, 320px) 108px;
+        grid-template-rows: 463px 177px 108px 177px 463px;
+        grid-template-areas:
+            "two three"
+            "two one"
+            "five one"
+            "five four"
+            "six four";
     }
 }
 
 @media screen and (max-width: 865px) {
     .cards-grid {
         grid-template-columns: minmax(295px, 1fr);
-        grid-template-rows: 320px 390px 675px 320px;
+        grid-template-rows: 320px 390px 675px 320px auto auto auto;
         padding-right: 10%;
         padding-left: 10%;
         box-sizing: border-box;
+        grid-template-areas: "one" "three" "two" "five" "four" "six" "seven";
     }
 }
 
@@ -29,6 +44,5 @@
     .cards-grid {
         padding: 0;
         gap: 10px;
-
     }
 }
